@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-hov{
+    @apply hover:border-b-2 hover:border-white
+}
