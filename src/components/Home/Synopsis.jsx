@@ -48,8 +48,8 @@ const Synopsis = () => {
       </Swiper>
     </div>
     <div className='flex flex-col justify-center items-center p-6'>
-        <h2>Synopsis</h2>
-        <div className='p-6'>
+        <h2 className='border-b-2 border-white pb-1'>Synopsis</h2>
+        <div className='px-6'>
             <p>
             A lot of voluntarily and involuntarily partitioned segments of our society, such as juvenile prisoners, girls in rescue centers who have escaped vices like FGM, teenagers in orphanage centers, and youths with chronic conditions stuck in hospitals for long periods, and even prisoners, do not have access to the kind of literacy exposure that exists in the general Kenyan society. Even the type of literacy potential of young people in Kenya is shallow.
             </p>

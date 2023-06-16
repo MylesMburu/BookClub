@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .nav-hov{
-    @apply hover:border-b-2 hover:border-white
+    @apply hover:border-b-2 hover:border-primary
 }
