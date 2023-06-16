@@ -47,7 +47,7 @@ const Synopsis = () => {
         ))}
       </Swiper>
     </div>
-    <div className='flex flex-col justify-center items-center p-6'>
+    <div className='flex flex-col justify-center items-center p-2 md:p-4'>
         <h2 className='border-b-2 border-white pb-1'>Synopsis</h2>
         <div className='px-6'>
             <p>

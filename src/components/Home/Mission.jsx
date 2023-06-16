@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Mission = () => {
   return (
-    <div className='flex flex-col justify-center items-center p-6'>
+    <div className='flex flex-col justify-center items-center p-2 md:p-4'>
       <h2 className='border-b-2 border-white pb-1'>Mission</h2>
       <div className='px-6'>
       <p>

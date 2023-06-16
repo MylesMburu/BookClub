@@ -24,17 +24,17 @@ export const About = () => {
           })}
       </div>
 
-      <div className='flex flex-col pt-6 justify-center items-center'>
+      <div className='flex flex-col px-6 pt-6 justify-center items-center'>
       <span>"Any book that helps a child to form a habit of reading, to make reading one of his deep and continuing needs, is good for him."</span>
       <span>~Maya Angelou</span>
       </div>
 
-      <div className='flex flex-col justify-center items-center mt-8'>
+      <div className='flex flex-col px-6 pt-8 justify-center items-center'>
         <div>
         <h2 className='border-b-2 border-white pb-1'>Contact Us</h2>
         </div>
         <div>
-          <form className="flex flex-col p-8 w-96 text-black">
+          <form className="flex flex-col p-8 w-full md:w-96 text-black">
             <input
               type="text"
               name="name"
