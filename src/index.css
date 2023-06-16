@@ -5,3 +5,7 @@
 .nav-hov{
     @apply hover:border-b-2 hover:border-primary
 }
+
+.card{
+    @apply flex-col justify-center mt-8 bg-white text-black rounded overflow-hidden shadow-md relative 
+}

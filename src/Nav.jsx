@@ -9,7 +9,6 @@ export const Nav = () => {
             <div> <NavLink to='/' className='nav-hov'>Home</NavLink></div>
             <div><NavLink to='catalogue' className='nav-hov'>Catalogue</NavLink></div>
             <div><NavLink to='about' className='nav-hov'>About Us</NavLink></div>
-            <div><NavLink to='contacts' className='nav-hov'>Contact Us</NavLink></div>
         </div>
     </div>
   )

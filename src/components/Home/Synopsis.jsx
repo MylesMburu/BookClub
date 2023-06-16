@@ -5,8 +5,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import IMG1 from '../../assets/279002.jpg';
-import IMG2 from '../../assets/neon-scientist-tapestries.webp';
-import IMG3 from '../../assets/the-great-wave-off-kanagawa-j63-tapestries.webp';
+import IMG2 from '../../assets/Juve.jpg';
+import IMG3 from '../../assets/stop-fgm.webp';
 
 const data = [
   {

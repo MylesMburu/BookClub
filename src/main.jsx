@@ -5,7 +5,6 @@ import { Home } from './components/Home/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Catalogue } from './components/Catalogue/Catalogue'
 import { About } from './components/About/About'
-import { Contact } from './components/Contact/Contact'
 import { Footer } from './components/Footer'
 
 
@@ -18,7 +17,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route index element={<Home/>}/>
       <Route path='catalogue' element={<Catalogue/>}/>
       <Route path='about' element={<About/>}/>
-      <Route path='contacts' element={<Contact/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
