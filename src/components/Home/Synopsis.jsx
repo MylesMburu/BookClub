@@ -4,14 +4,15 @@ import { Autoplay, Pagination, Navigation } from 'swiper';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import IMG1 from '../../assets/279002.jpg';
-import IMG2 from '../../assets/Juve.jpg';
-import IMG3 from '../../assets/stop-fgm.webp';
+import IMG1 from '../../assets/books1.jpg';
+import IMG2 from '../../assets/books2.jpg';
+import IMG3 from '../../assets/books3.jpg';
+import IMG4 from '../../assets/books4.jpg';
 
 const data = [
   {
     key: 1,
-    image: IMG1,
+    image: IMG4,
   },
   {
     key: 2,
