@@ -9,3 +9,12 @@
 .card{
     @apply flex-col justify-center mt-8 bg-white text-black rounded overflow-hidden shadow-md relative 
 }
+
+.card2{
+    @apply flex-col justify-center mt-8 text-primary rounded overflow-hidden shadow-md relative px-6 py-2
+}
+
+.nav-hov:active {
+    @apply border-b-2 border-primary;
+  }
+  

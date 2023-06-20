@@ -1,12 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import IMG1 from '../../assets/books1.jpg';
 import IMG2 from '../../assets/books2.jpg';
 import IMG3 from '../../assets/books3.jpg';
 import IMG4 from '../../assets/books4.jpg';
+import { About } from '../About/About';
 
 const data = [
   {
@@ -53,16 +56,15 @@ const Synopsis = () => {
         </Swiper>
       </div>
       
-      {/* Synopsis section */}
-      <div className='flex flex-col justify-center items-center p-2 md:p-4'>
-        <h2 className='border-b-2 border-white pb-1'>Synopsis</h2>
-        <div className='px-6'>
-          <p>
-            A lot of voluntarily and involuntarily partitioned segments of our society, such as juvenile prisoners, girls in rescue centers who have escaped vices like FGM, teenagers in orphanage centers, and youths with chronic conditions stuck in hospitals for long periods, and even prisoners, do not have access to the kind of literacy exposure that exists in the general Kenyan society. Even the type of literacy potential of young people in Kenya is shallow.
-          </p>
-          <p>
-            According to a 2019 study by the Kenya Institute of Curriculum Development, only 10% of Kenyan households own a book. This figure has remained constant for the past decade, with only one in every five people reading a book yearly. Ironically, 85% of Kenyans are literate, according to the Kenya National Bureau of Statistics 2020.
-          </p>
+      <div className='grid grid-cols-2 px-4 pt-8 pb-6'>
+        <div className='flex flex-col justify-center items-center px-4'>
+            <h2 className='border-b-2 left-0'>About Our Book Club</h2>
+            <p>The Book Club initiative is a Kenya-based organization committed to bridging literacy gaps within marginalized groups, including girls in rescue centers, orphans, chronically ill youths, and juvenile prisoners.
+              <br/> Through strategic, affordable book acquisition programs and a two-phase piloting scheme, we aim to empower these underserved communities by fostering a love for reading and enabling access to the transformative power of literacy.</p>
+              <button className='bg-red-600 rounded px-6 py-2'><Link to='/about' element={About}>Learn More</Link></button>
+        </div>
+        <div>
+            <img src={IMG1} alt="An image of books" className='object-cover h-72 w-full p-4' />
         </div>
       </div>
     </div>

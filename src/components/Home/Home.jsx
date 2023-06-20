@@ -1,14 +1,14 @@
 import React from 'react'
 import Synopsis from './Synopsis'
-import { Mission } from './Mission'
-import { Solution } from './Solution'
+import { Goals } from './Goals'
+import { WhyRead } from "./WhyRead";
 
 export const Home = () => {
   return (
     <div className='bg-primary text-white'>
         <Synopsis/>
-        <Mission/>
-        <Solution/>
+        <Goals/>
+        <WhyRead/>
     </div>
   )
 }
