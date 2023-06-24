@@ -49,7 +49,7 @@ const Synopsis = () => {
               <img src={image} alt={`Slide ${key}`} className='w-full h-96 object-cover'/>
               <div className='absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50'>
                 <h2 className='text-white text-xl font-bold mb-4'>Bringing Transformation, One Book At A Time</h2>
-                <button className='px-6 py-2 text-white bg-red-600 hover:bg-red-700 rounded'>Learn More</button>
+                <button className='px-6 py-2 text-white bg-red-600 hover:bg-red-700 rounded'><Link to='/about' element={About}>Learn More</Link></button>
               </div>
             </SwiperSlide>
           ))}
