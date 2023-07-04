@@ -36,7 +36,7 @@ export const Footer = () => {
       </div>
       <div className='flex flex-col pr-16'>
         <span>© {currentYear} All Rights Reserved</span>
-        <span> <small>Crafted by <a href="https://mylesmburu.netlify.app/">Myles</a></small></span>
+        <span> <small>Crafted by <a href="https://mylesmburu.netlify.app/" target='_blank'>Myles</a></small></span>
       </div>
     </div>
   );
