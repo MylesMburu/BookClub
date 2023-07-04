@@ -26,8 +26,9 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='pr-16'>
+      <div className='flex flex-col pr-16'>
         <span>© 2023 All Rights Reserved</span>
+        <span> <small>Crafted by <a href="https://mylesmburu.netlify.app/">Myles</a></small></span>
       </div>
     </div>
   );
