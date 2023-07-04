@@ -27,6 +27,7 @@ const data = [
 ];
 
 const Synopsis = () => {
+  
   return (
     <div>
       {/* Slideshow */}
@@ -46,7 +47,7 @@ const Synopsis = () => {
         >
           {data.map(({ key, image }) => (
             <SwiperSlide key={key} className='relative'>
-              <img src={image} alt={`Slide ${key}`} className='w-full h-96 object-cover'/>
+              <img src={image} alt={`Slide ${key}`} className='w-full h-screen object-cover opacity-50'/>
               <div className='absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50'>
                 <h2 className='text-white text-xl font-bold mb-4'>Bringing Transformation, One Book At A Time</h2>
                 <button className='px-6 py-2 text-white bg-red-600 hover:bg-red-700 rounded'><Link to='/about' element={About}>Learn More</Link></button>
@@ -56,9 +57,9 @@ const Synopsis = () => {
         </Swiper>
       </div>
       
-      <div className='grid grid-cols-2 px-4 pt-8 pb-6'>
+      <div className='grid grid-cols-2 h-96 px-4 pt-8 pb-6'>
         <div className='flex flex-col justify-center items-center px-4'>
-            <h2 className='border-b-2 left-0'>About Our Book Club</h2>
+            <h2 className='border-b-2 left-0 font-bold'>About Our Book Club</h2>
             <p>The Book Club initiative is a Kenya-based organization committed to bridging literacy gaps within marginalized groups, including girls in rescue centers, orphans, chronically ill youths, and juvenile prisoners.
               <br/> Through strategic, affordable book acquisition programs and a two-phase piloting scheme, we aim to empower these underserved communities by fostering a love for reading and enabling access to the transformative power of literacy.</p>
               <button className='bg-red-600 rounded px-6 py-2'><Link to='/about' element={About}>Learn More</Link></button>
