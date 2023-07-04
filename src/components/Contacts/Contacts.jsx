@@ -22,7 +22,7 @@ export const Contacts = () => {
 
   }
   return (
-    <div className='bg-primary text-white p-16'>
+    <div className='bg-primary text-white p-16 h-screen'>
       <div className='grid grid-cols-2 px-6 pt-8'>
         <div className='text-black'>
           <h2 className='border-b-2 border-white text-white pb-1 mb-4'>Contact Us</h2>
