@@ -1,16 +1,59 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { FiMenu, FiX } from 'react-icons/fi';
 
 export const Nav = () => {
+  const [open, setOpen] = useState(false);
+
   return (
-    <div className='flex justify-between p-2 bg-secondary text-primary'>
-        <div id='logo' className='text-xl font-bold'>Book Club</div>
-        <div className='flex gap-4 font-semibold'>
-            <div> <NavLink to='/' className='nav-hov'>Home</NavLink></div>
-            <div><NavLink to='catalogue' className='nav-hov'>Catalogue</NavLink></div>
-            <div><NavLink to='about' className='nav-hov'>About</NavLink></div>
-            <div><NavLink to='contacts' className='nav-hov'>Contact Us</NavLink></div>
+    <div className='flex md:flex-row justify-between p-2 bg-secondary text-primary'>
+      <div id='logo' className='text-xl font-bold'>
+        Book Club
+      </div>
+      <div className='flex md:flex-row gap-4 font-semibold'>
+        <div className='md:hidden'>
+          {open ? (
+            <FiX className='text-primary cursor-pointer' onClick={() => setOpen(!open)} />
+          ) : (
+            <FiMenu className='text-primary cursor-pointer' onClick={() => setOpen(!open)} />
+          )}
         </div>
+        <div className={`md:flex ${open ? 'flex flex-col' : 'hidden'}`}>
+          <NavLink
+            to='/'
+            className='nav-hov md:ml-4'
+            activeClassName='text-primary font-bold'
+            exact
+            onClick={() => setOpen(false)}
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to='/catalogue'
+            className='nav-hov md:ml-4'
+            activeClassName='text-primary font-bold'
+            onClick={() => setOpen(false)}
+          >
+            Catalogue
+          </NavLink>
+          <NavLink
+            to='/about'
+            className='nav-hov md:ml-4'
+            activeClassName='text-primary font-bold'
+            onClick={() => setOpen(false)}
+          >
+            About
+          </NavLink>
+          <NavLink
+            to='/contacts'
+            className='nav-hov md:ml-4'
+            activeClassName='text-primary font-bold'
+            onClick={() => setOpen(false)}
+          >
+            Contact Us
+          </NavLink>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
