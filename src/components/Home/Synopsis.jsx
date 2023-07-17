@@ -52,7 +52,7 @@ const Synopsis = () => {
                 className="w-full h-screen object-cover opacity-50"
               />
               <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50">
-                <h2 className="text-white text-xl font-bold mb-4">Bringing Transformation, One Book At A Time</h2>
+                <h2 className="text-white text-xl font-bold px-2 mb-4">Bringing Transformation,<br className='md:hidden'/> One Book At A Time</h2>
                 <button className="px-6 py-2 text-white bg-red-600 hover:bg-red-700 rounded">
                   <Link to="/about" element={About}>
                     Learn More
