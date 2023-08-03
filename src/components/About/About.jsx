@@ -21,7 +21,7 @@ export const About = () => {
         </p>
       </div>
 
-      <div className='grid px-2 md:px-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+      <div className='grid grid-cols-1 px-2 md:px-16 md:grid-cols-2 lg:grid-cols-4 gap-5'>
         {info.map(({ key, name, position, id, image }) => {
           return (
             <div className='card' key={key}>

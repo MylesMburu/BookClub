@@ -33,12 +33,12 @@ export const Nav = () => {
             Home
           </NavLink>
           <NavLink
-            to='/catalogue'
+            to='/projects'
             className='nav-hov md:ml-4'
             activeClassName='text-primary font-bold'
             onClick={() => setOpen(false)}
           >
-            Catalogue
+            Projects
           </NavLink>
           <NavLink
             to='/about'
