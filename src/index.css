@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .nav-hov{
-    @apply hover:border-b-2 hover:border-primary
+    @apply hover:border-b-2 hover:border-primary ease-in-out delay-75;
 }
 
 .card{
