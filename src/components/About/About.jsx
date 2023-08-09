@@ -7,7 +7,7 @@ export const About = () => {
       <div className='border-b-2 border-white pb-1'>
         <h2>Our Story:</h2>
       </div>
-      <div className='px-4 md:px-6 pt-6 text-center'>
+      <div className='px-4 md:px-6 pt-6 space-y-0'>
         <p>
           In a society plagued by limited opportunities, numerous segments face the challenges of restricted literacy
           exposure. Girls in rescue centers escaping vices like FGM, teenagers in orphanages, youths with chronic

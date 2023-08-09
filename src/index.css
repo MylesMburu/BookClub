@@ -7,7 +7,7 @@
 }
 
 .card{
-    @apply flex-col justify-center mt-8 bg-white text-black rounded overflow-hidden shadow-lg relative 
+    @apply flex-col justify-center mt-8 bg-text1 text-black rounded overflow-hidden shadow-lg relative 
 }
 
 .card2{

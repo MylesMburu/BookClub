@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
+import logo from './assets/logo.svg'
 
 export const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -9,9 +10,16 @@ export const Nav = () => {
     <div className='flex md:flex-row justify-between p-4 h-full md:h-16 bg-secondary text-text1'>
       {/* Conditionally render the logo */}
       {!open && (
-        <div id='logo' className='text-xl font-bold'>
-          Book Club
-        </div>
+        <div id='logo' className='text-xl font-bold flex items-center space-x-2'>
+        <a href="/" className="flex items-center space-x-1">
+          <span className=''>Book Club</span>
+          <img
+            src={logo} 
+            alt="Book Club Logo"
+            className='w-10 h-10' 
+          />
+        </a>
+      </div>
       )}
 
       <div className='flex md:flex-row gap-4 font-semibold'>
