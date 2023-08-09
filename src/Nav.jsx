@@ -25,9 +25,9 @@ export const Nav = () => {
       <div className='flex md:flex-row gap-4 font-semibold'>
         <div className='md:hidden'>
           {open ? (
-            <FiX className='text-primary cursor-pointer' onClick={() => setOpen(!open)} />
+            <FiX className='text-text1 cursor-pointer' onClick={() => setOpen(!open)} />
           ) : (
-            <FiMenu className='text-primary cursor-pointer' onClick={() => setOpen(!open)} />
+            <FiMenu className='text-text1 cursor-pointer mt-2' onClick={() => setOpen(!open)} />
           )}
         </div>
         <div className={`md:flex ${open ? 'flex flex-col ml-24 gap-2' : 'hidden'}`}>
