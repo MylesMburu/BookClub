@@ -7,14 +7,19 @@
 }
 
 .card{
-    @apply flex-col justify-center mt-8 bg-white text-black rounded overflow-hidden shadow-md relative 
+    @apply flex-col justify-center mt-8 bg-white text-black rounded overflow-hidden shadow-lg relative 
 }
 
 .card2{
-    @apply flex-col justify-center mt-8 text-primary rounded overflow-hidden shadow-md relative px-6 py-2
+    @apply flex-col justify-center mt-8 text-text1 rounded overflow-hidden shadow-lg relative px-6 py-2
 }
 
 .nav-hov:active {
     @apply border-b-2 border-primary;
+}
+
+.dropdown {
+    @apply fixed top-0 left-0 w-full h-full p-5 bg-text1 text-primary z-50 flex flex-col gap-2 justify-start items-start;
   }
+  
   

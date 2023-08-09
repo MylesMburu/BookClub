@@ -11,7 +11,7 @@ export const Footer = () => {
   }, []);
 
   return (
-    <div className='flex flex-col md:flex-row justify-between bg-footer text-white py-4 pl-16'>
+    <div className='flex flex-col md:flex-row justify-between bg-footer text-white py-4 md:py-8 pl-16'>
       <div className='mb-4 md:mb-0'>
         <div className='pb-2'>
           <a href=''>Book Club</a>

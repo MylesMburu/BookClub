@@ -6,7 +6,7 @@ export const Nav = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className='flex md:flex-row justify-between p-4 h-full md:h-16 bg-secondary text-primary'>
+    <div className='flex md:flex-row justify-between p-4 h-full md:h-16 bg-secondary text-text1'>
       {/* Conditionally render the logo */}
       {!open && (
         <div id='logo' className='text-xl font-bold'>

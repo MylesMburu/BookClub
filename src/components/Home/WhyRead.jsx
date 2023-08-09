@@ -3,7 +3,7 @@ import IMG9 from '../../assets/book buddy.png';
 
 export const WhyRead = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 h-auto md:h-96'>
+    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 h-auto md:h-96 text-text1'>
       <div className='flex flex-col justify-center items-center'>
         <img src={IMG9} alt='' className='object-fit w-60 h-60' />
       </div>

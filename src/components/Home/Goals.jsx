@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Goals = () => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 h-auto sm:h-96 bg-secondary pb-6'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 h-auto sm:h-96 bg-secondary text-text1 pb-6'>
       <div className='flex justify-center items-center card2'>
         <h2 className='font-bold'>Mission</h2>
         <p>

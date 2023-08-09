@@ -18,7 +18,7 @@ export const Contacts = () => {
   };
 
   return (
-    <div className='bg-primary text-white p-8 md:p-16 min-h-screen'>
+    <div className='bg-primary text-text1 p-8 md:p-16 min-h-screen'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4 px-2 md:px-6 pt-8'>
         <div className='text-black'>
           <h2 className='border-b-2 border-white text-white pb-1 mb-4'>Contact Us</h2>
@@ -29,11 +29,11 @@ export const Contacts = () => {
               possible.
             </p>
           </div>
-          <div className='flex flex-col md:flex-row gap-4 bg-secondary p-3 rounded mb-4'>
+          <div className='flex flex-col md:flex-row gap-4 bg-secondary text-text1 p-3 rounded mb-4'>
             <FiPhoneCall className='mt-1' />
             <h3>+(254)759129028</h3>
           </div>
-          <div className='flex flex-col md:flex-row gap-4 bg-secondary p-3 rounded mb-4'>
+          <div className='flex flex-col md:flex-row gap-4 bg-secondary text-text1 p-3 rounded mb-4'>
             <HiOutlineMail className='mt-1' />
             <h3 className='text-sm md:text-base'>foundbookclub0@gmail.com</h3>
           </div>
@@ -50,7 +50,7 @@ export const Contacts = () => {
               required
               className='p-2 rounded-md mb-4'
             ></textarea>
-            <button type='submit' className='py-2 px-4 bg-secondary w-max rounded-md'>
+            <button type='submit' className='py-2 px-4 bg-secondary text-text1 w-max rounded-md'>
               Send Message
             </button>
           </form>
