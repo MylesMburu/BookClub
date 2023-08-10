@@ -27,7 +27,7 @@ export const Projects = () => {
                 <img
                   src={project.photos.photo1}
                   alt={project.name}
-                  className='rounded-md lg:rounded-sm object-cover w-72 h-64 md:w-96 md:h-72'
+                  className='rounded-md lg:rounded-sm object-cover w-72 h-64 md:w-96 md:h-80'
 
                 />
               </div>
