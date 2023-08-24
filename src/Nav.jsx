@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
-import logo from './assets/logo.svg'
+import logo from './assets/book club jpg.jpg'
 
 export const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -12,11 +12,10 @@ export const Nav = () => {
       {!open && (
         <div id='logo' className='text-xl font-bold flex items-center space-x-2'>
         <a href="/" className="flex items-center space-x-1">
-          <span className=''>Book Club</span>
           <img
             src={logo} 
             alt="Book Club Logo"
-            className='w-10 h-10' 
+            className='w-full h-12 object-cover rounded-md' 
           />
         </a>
       </div>

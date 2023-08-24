@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import IMG1 from '../../assets/books1.jpg';
 import IMG2 from '../../assets/books2.jpg';
 import IMG3 from '../../assets/books3.jpg';
-import IMG4 from '../../assets/books4.jpg';
+import IMG4 from '../../assets/book club with bg.jpg';
 import { About } from '../About/About';
 
 const data = [
