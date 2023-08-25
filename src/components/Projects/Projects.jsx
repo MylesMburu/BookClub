@@ -9,8 +9,9 @@ export const Projects = () => {
     
     <div className='bg-primary'>
       <h1 className='text-center text-4xl text-white font-bold py-4'>Projects</h1>
-      <div className='text-white px-8 py-4 text-center'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam id, veritatis, aspernatur ad commodi vero enim nemo eos sint explicabo beatae fugit, libero ipsa laudantium esse sequi quis laborum voluptatum ab consequatur veniam obcaecati minus! Ducimus tempore dolores ut, consectetur quidem atque harum aliquid nisi eum deserunt fuga provident voluptates excepturi similique error dignissimos vitae, sunt repellat earum odit qui reprehenderit quam, facere aliquam. Quae quo doloribus eligendi libero nulla dicta eaque provident itaque officia tempore impedit vel iure, deleniti perspiciatis maiores enim sequi nobis laboriosam mollitia dolorem numquam. Voluptatem voluptatum quo fugit vel nostrum temporibus laborum rerum. Nemo, quaerat?</p>
+      <div className='text-white px-8 py-4 text-center'> 
+        <p>From girls in rescue centers escaping vices like FGM to teenagers in orphanages, youths with chronic conditions in hospitals, and even juvenile prisoners, these groups often lack access to the world of literacy available to the wider Kenyan society. The Book Club initiative is on a mission to bridge these gaps and extend the transformative power of books to these underserved populations. Through strategic initiatives, affordable book acquisition, and a two-phase piloting program, we strive to empower and uplift the minds of young individuals who have been denied the opportunity to explore the wonders of literacy.</p>
+        
       </div>
       <div className='flex flex-col gap-4 mx-4 py-6 md:grid-cols-2 md:grid md:px-2 justify-center items-center'>
         {projects.map((project, index) => {
