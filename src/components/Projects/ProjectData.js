@@ -1,4 +1,6 @@
 import dummy from '../../assets/279002.jpg';
+import ayiera1 from '../../assets/ayiera1.jpg';
+import ayiera2 from '../../assets/ayiera2.jpg';
 
 const projects = 
 [
@@ -19,8 +21,8 @@ const projects =
     "index": 2,
     "institution": "Ayiera Initiative Children and Youth Development and Empowerment Centre,",
     "photos": {
-      "photo1": dummy,
-      "photo2": "https://example.com/artwork2_2.jpg"
+      "photo1": ayiera2,
+      "photo2": ayiera1,
     },
     "date": "30th June 2023",
     "location": "Ngomongo,Nairobi",
