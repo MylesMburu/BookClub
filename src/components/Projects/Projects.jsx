@@ -52,6 +52,9 @@ export const Projects = () => {
                       <div>
                           {project.description}
                       </div>
+                      <div>
+                        {project.outcome}
+                      </div>
                       <button className='rounded-md border border-black px-3 py-2'>
                         <a href={project.catalogue_link} target="_blank" rel="noopener noreferrer">Catalogue</a>
                       </button>
