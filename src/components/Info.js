@@ -1,5 +1,4 @@
 import FRIDAH from '../assets/Fridah.jpg';
-import TRACY from '../assets/Tracy.jpg';
 import KELVIN from '../assets/Kevin.jpg';
 import JAEL from '../assets/Jael.jpg'
 
@@ -22,12 +21,7 @@ const info =[
       position:'Public Relations and Outreach Coordinator',
       image: JAEL,
     },
-    {
-      id:4,
-      name:'Tracy Atieno Achieng',
-      position:'Logistics personnel',
-      image: TRACY,
-    },
+    
   ]
 
   export default info;
