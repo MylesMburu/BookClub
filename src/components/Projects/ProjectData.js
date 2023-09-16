@@ -1,6 +1,16 @@
 import dummy from '../../assets/279002.jpg';
 import ayiera1 from '../../assets/ayiera1.jpg';
 import ayiera2 from '../../assets/ayiera2.jpg';
+import tumaini1 from '../../assets/tumaini1.jpg';
+import tumaini2 from '../../assets/tumaini2.jpg';
+import remand1 from '../../assets/remand1.jpg';
+import remand2 from '../../assets/remand2.jpg';
+import moonlight1 from '../../assets/moonlight1.jpg';
+import moonlight2 from '../../assets/moonlight2.jpg';
+import moonlight3 from '../../assets/moonlight3.jpg';
+import soweto1 from '../../assets/soweto1.jpg';
+import soweto2 from '../../assets/soweto2.jpg';
+import soweto3 from '../../assets/soweto3.jpg';
 
 const projects = 
 [
@@ -8,7 +18,7 @@ const projects =
     "index": 1,
     "institution": "Soweto Academy for Girls",
     "photos": {
-      "photo1": dummy,
+      "photo1": soweto1,
       "photo2": "https://example.com/artwork2_1.jpg"
     },
     "date": "28th June 2023",
@@ -34,7 +44,7 @@ const projects =
     "index": 3,
     "institution": "Moonlight Centre School",
     "photos": {
-      "photo1": dummy,
+      "photo1": moonlight2,
       "photo2": "https://example.com/artwork2_3.jpg"
     },
     "date": "5th August 2023",
@@ -47,26 +57,26 @@ const projects =
     "index": 4,
     "institution": "Eldoret Children's Remand home",
     "photos": {
-      "photo1": dummy,
+      "photo1": remand2,
       "photo2": "https://example.com/artwork2_3.jpg"
     },
     "date": "14th August 2023",
     "location": "Kapsoya, Eldoret",
-    "description": "Our project visit yielded fruitful outcomes as we successfully accomplished our primary objectives. We engaged with both the students and the officials, fostering direct connections and a deeper understanding of all project stakeholders. Furthermore, we undertook the task of acquainting the students with the significance of reading and impressing upon them the importance of having a constant supply of reading materials. Additionally, we provided a detailed exposition of the program's operational intricacies, including the timeline for book exchanges with partnering institutions, slated for an 8-week interval.",
-    "outcome":"The books have been made accessible through the teacher, with students having written their names and the titles of the books they intend to read. It was observed by the students that the school lacked a library, leading to the conclusion that it would be advantageous to initiate the Book Club's own concept of a library.",
+    "description": "Our visit to the Eldoret Children's Remand home was marked by enlightening interactions and substantial progress towards our project's mission. Engaging with the juveniles and conversing with the staff, including Mr. Maurice, the director, allowed our team to forge meaningful relationships and gain a profound understanding of the institution's needs. We took it upon ourselves to educate these young individuals about the transformative power of reading and to emphasize the continuous need for updated reading resources. Additionally, we discussed the logistics behind our program's operations and mapped out the forthcoming exchanges of books with this remand home.",
+    "outcome": "Having distributed 100 books, provisions were made for the juveniles to access them via their instructors. Several juveniles showed enthusiasm and listed out the titles they were keen on exploring. Recognizing the absence of a formal library setting in the remand home, we deliberated on the prospect of setting up a semblance of a library, inspired by the Book Club's model, ensuring a conducive environment for these young individuals to immerse themselves in literature.",
     "catalogue_link": "https://example.com/catalogue_3"
   },
   {
     "index": 5,
     "institution": "Tumaini Innovation Center",
     "photos": {
-      "photo1": dummy,
+      "photo1": tumaini2,
       "photo2": "https://example.com/artwork2_3.jpg"
     },
     "date": "14th August 2023",
     "location": "Illula, Eldoret",
-    "description": "Our project visit yielded fruitful outcomes as we successfully accomplished our primary objectives. We engaged with both the students and the officials, fostering direct connections and a deeper understanding of all project stakeholders. Furthermore, we undertook the task of acquainting the students with the significance of reading and impressing upon them the importance of having a constant supply of reading materials. Additionally, we provided a detailed exposition of the program's operational intricacies, including the timeline for book exchanges with partnering institutions, slated for an 8-week interval.",
-    "outcome":"The books have been made accessible through the teacher, with students having written their names and the titles of the books they intend to read. It was observed by the students that the school lacked a library, leading to the conclusion that it would be advantageous to initiate the Book Club's own concept of a library.",
+    "description": "Our excursion to the Tumaini Innovation Center was a fulfilling experience that further strengthened our commitment to championing literacy. Interacting with the community at the center and having insightful discussions with our contact, Mr. Wesley Kimutai, we garnered a deeper appreciation for the unique needs and goals of this institution. With an intent to inspire and nurture a love for reading, we shared the pivotal role that a steady inflow of reading resources can play in personal growth. Additionally, we provided a comprehensive overview of our program's mechanics, emphasizing the symbiotic nature of our ongoing collaboration.",
+    "outcome": "The allocation of 150 books was received with excitement and appreciation. Steps were outlined to guarantee the books were readily available to all beneficiaries at the center. The anticipation was palpable, with many individuals already expressing titles they are keen to start with. Recognizing the importance of a dedicated space for reading, we proposed the idea of designing a reading zone, modeled after the Book Club's library concept, tailored for the Tumaini Innovation Center. Given the center's online presence via their official website, we foresee a platform that will not only monitor this collaboration's growth but will also serve to spotlight success stories and milestones achieved.",
     "catalogue_link": "https://example.com/catalogue_3"
   },
 ]
