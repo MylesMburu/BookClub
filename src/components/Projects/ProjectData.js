@@ -43,6 +43,32 @@ const projects =
     "outcome":"The books have been made accessible through the teacher, with students having written their names and the titles of the books they intend to read. It was observed by the students that the school lacked a library, leading to the conclusion that it would be advantageous to initiate the Book Club's own concept of a library.",
     "catalogue_link": "https://example.com/catalogue_3"
   },
+  {
+    "index": 4,
+    "institution": "Eldoret Children's Remand home",
+    "photos": {
+      "photo1": dummy,
+      "photo2": "https://example.com/artwork2_3.jpg"
+    },
+    "date": "14th August 2023",
+    "location": "Kapsoya, Eldoret",
+    "description": "Our project visit yielded fruitful outcomes as we successfully accomplished our primary objectives. We engaged with both the students and the officials, fostering direct connections and a deeper understanding of all project stakeholders. Furthermore, we undertook the task of acquainting the students with the significance of reading and impressing upon them the importance of having a constant supply of reading materials. Additionally, we provided a detailed exposition of the program's operational intricacies, including the timeline for book exchanges with partnering institutions, slated for an 8-week interval.",
+    "outcome":"The books have been made accessible through the teacher, with students having written their names and the titles of the books they intend to read. It was observed by the students that the school lacked a library, leading to the conclusion that it would be advantageous to initiate the Book Club's own concept of a library.",
+    "catalogue_link": "https://example.com/catalogue_3"
+  },
+  {
+    "index": 5,
+    "institution": "Tumaini Innovation Center",
+    "photos": {
+      "photo1": dummy,
+      "photo2": "https://example.com/artwork2_3.jpg"
+    },
+    "date": "14th August 2023",
+    "location": "Illula, Eldoret",
+    "description": "Our project visit yielded fruitful outcomes as we successfully accomplished our primary objectives. We engaged with both the students and the officials, fostering direct connections and a deeper understanding of all project stakeholders. Furthermore, we undertook the task of acquainting the students with the significance of reading and impressing upon them the importance of having a constant supply of reading materials. Additionally, we provided a detailed exposition of the program's operational intricacies, including the timeline for book exchanges with partnering institutions, slated for an 8-week interval.",
+    "outcome":"The books have been made accessible through the teacher, with students having written their names and the titles of the books they intend to read. It was observed by the students that the school lacked a library, leading to the conclusion that it would be advantageous to initiate the Book Club's own concept of a library.",
+    "catalogue_link": "https://example.com/catalogue_3"
+  },
 ]
 
     

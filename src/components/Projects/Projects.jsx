@@ -1,6 +1,7 @@
 import React from 'react';
 import projects from './ProjectData';
 import { FiX } from 'react-icons/fi';
+import { FaArrowRight } from 'react-icons/fa';
 
 export const Projects = () => {
   const [toggleActive, setToggleActive] = React.useState(false);
@@ -39,7 +40,7 @@ export const Projects = () => {
                 <button 
                 className='rounded-md border border-text1 px-3 py-2 hover:text-black hover:border-black duration-300 ease-in-out'
                 onClick={() => setToggleActive(isActive ? null : index)}
-                >Explore</button>
+                ><FaArrowRight/></button>
               </div>
               {isActive && 
                   <div className='dropdown'>

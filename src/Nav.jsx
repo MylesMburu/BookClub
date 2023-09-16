@@ -29,10 +29,10 @@ export const Nav = () => {
             <FiMenu className='text-text1 cursor-pointer mt-2' onClick={() => setOpen(!open)} />
           )}
         </div>
-        <div className={`md:flex ${open ? 'flex flex-col ml-24 gap-2' : 'hidden'}`}>
+        <div className={`md:flex ${open ? 'flex flex-col ml-24 gap-2 ' : 'hidden'}`}>
           <NavLink
             to='/'
-            className='nav-hov md:ml-4'
+            className='nav-hov md:px-10'
             activeClassName='text-primary font-bold'
             exact
             onClick={() => setOpen(false)}
@@ -41,7 +41,7 @@ export const Nav = () => {
           </NavLink>
           <NavLink
             to='/projects'
-            className='nav-hov md:ml-4'
+            className='nav-hov md:px-10'
             activeClassName='text-primary font-bold'
             onClick={() => setOpen(false)}
           >
@@ -49,7 +49,7 @@ export const Nav = () => {
           </NavLink>
           <NavLink
             to='/about'
-            className='nav-hov md:ml-4'
+            className='nav-hov md:px-10'
             activeClassName='text-primary font-bold'
             onClick={() => setOpen(false)}
           >
@@ -57,7 +57,7 @@ export const Nav = () => {
           </NavLink>
           <NavLink
             to='/contacts'
-            className='nav-hov md:ml-4'
+            className='nav-hov md:px-10'
             activeClassName='text-primary font-bold'
             onClick={() => setOpen(false)}
           >
